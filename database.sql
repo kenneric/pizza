@@ -1,9 +1,5 @@
 CREATE DATABASE pizza_store;
 
-CREATE LOGIN storeOwner WITH PASSWORD = 'storeOwner123';
-
-GRANT SELECT, INSERT, UPDATE, DELETE ON pizza_store TO storeOwner;
-
 CREATE TABLE tblCustomers(
 custID INT(6) PRIMARY KEY,
 email VARCHAR(50),
