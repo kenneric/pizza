@@ -26,3 +26,11 @@ input{
     border-radius: 5px;
     padding:10px;
 }
+a{
+    color:#a4161a;
+    text-decoration: none;
+}
+a:visited{
+    color:#a4161a;
+    text-decoration: none;
+}
