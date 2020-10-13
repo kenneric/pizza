@@ -1,3 +1,10 @@
+<?php
+    // open the session
+    session_start();
+    // get the submitted email and assign it to the session email variable
+    $_SESSION["email"] = $_GET["email"];
+?>
+
 <html>
     <head>
         <title>Pizza Project</title>
