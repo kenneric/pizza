@@ -1,0 +1,26 @@
+body{
+    background-color:#161a1d;
+    color:#d3d3d3;
+    font-family:'Microsoft New Tai Lue', Arial, Helvetica, sans-serif;
+    font-weight:200;
+    margin:0px;
+    padding:0px;
+}
+.container{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    text-align:center;
+}
+h1{
+    font-weight: lighter;
+}
+input{
+    border:none;
+    border-radius: 5px;
+    padding:10px;
+}
